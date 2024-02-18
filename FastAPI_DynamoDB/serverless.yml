@@ -1,0 +1,18 @@
+service: serverless-fastapi-dynamodb
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.10
+  region: ap-southeast-1
+  # stage: ${opt:stage, "dev"}
+functions:
+  api:
+    handler: main.handler
+    events:
+      - httpApi: '*'
+    # environment:
+    #   STAGE: ${self:provider.stage}
+
+plugins:
+  - serverless-python-requirements
