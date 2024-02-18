@@ -8,21 +8,7 @@
 
 </div>
 
-Hello, I'm Ahmet Furkan DEMİR, in this article/project I will show you how to create a CRUD API with Lambda, FastAPI and DynamoDB, we will make a platform like Spotify where we can upload our favorite songs while creating the API, have a good read.
-
-**Stages**
-
-├── [What is Amazon DynamoDB](https://github.com/AhmetFurkanDEMIR/Building-CRUD-API-with-Lambda-FastAPI-and-DynamoDB#what-is-amazon-dynamodb)
-
-├── [Create FastAPI](https://github.com/AhmetFurkanDEMIR/Building-CRUD-API-with-Lambda-FastAPI-and-DynamoDB#create-fastapi)
-
-├── [Running FastAPI in AWS Lambda Function](https://github.com/AhmetFurkanDEMIR/Building-CRUD-API-with-Lambda-FastAPI-and-DynamoDB#running-fastapi-in-lambda-function)
-
-├── [FastAPI connection with our Flask (Spotify) app](https://github.com/AhmetFurkanDEMIR/Building-CRUD-API-with-Lambda-FastAPI-and-DynamoDB#fastapi-connection-with-our-flask-spotify-app)
-
-├── [Deploying our Flask (Spotify) application on Amazon EC2](https://github.com/AhmetFurkanDEMIR/Building-CRUD-API-with-Lambda-FastAPI-and-DynamoDB#deploying-our-flask-spotify-application-on-amazon-ec2)
-
-└── [The Finish](https://github.com/AhmetFurkanDEMIR/Building-CRUD-API-with-Lambda-FastAPI-and-DynamoDB#the-finish)
+This is a simple crud project for deploying Fastapi app using Lambda, DynamoDB and serverless framework.
 
 ### What is Amazon DynamoDB
 
